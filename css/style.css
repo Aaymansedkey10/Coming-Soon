@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+.head img {
+    height: 100vh;
+}
+@media (max-width: 990px) {
+    .head img {
+        height: 160vh;
+    }
+}
+.position {
+    position: absolute;
+    top: 10%;
+    left: 16%;
+}
+@media (max-width: 990px) {
+    .position {
+        left: 0%;
+    }
+}
+.submit-form input {
+    background-color: rgb(255, 255, 255 , 0.2);
+}
+.submit-form input::placeholder {
+    color: #fff;
+    text-indent:3%;
+}
+.btn-submit:hover {
+    color: #0d6a81 !important;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
